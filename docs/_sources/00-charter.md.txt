@@ -13,6 +13,9 @@ https://www.usgs.gov/core-science-systems/sas/arc
 https://jonschlinkert.github.io/remarkable/demo/
 
 
+https://tonybutzer.github.io/harmony-docs/00define_ET.html#aws-on-boarding-overview
+
+
 
 # Case Study Fred
 
