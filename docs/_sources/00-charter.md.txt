@@ -97,3 +97,9 @@ CHS Sevices link hereo
 1. get fred access to the Pangeo
 2. get Fred access to the chs custom env
 3. Identify the training areas for Fred and his team
+
+
+
+## Notes
+
+- need a .nojekyll file in docs directory for github to not mess with themes
