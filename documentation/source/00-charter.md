@@ -1,5 +1,15 @@
 # Case Study Fred
 
+## Fred's Science Project HERE:
+
+1. what discipline
+2. Inputs and Outputs
+3. Current Data Wangling and Storage Strategy
+4. Org Chart
+5. Staffing Skill Mix.
+6.
+
+
 ## Purpose
 - Allow Fred Irani to make an informed decision on Pangeo versus ARC
 
