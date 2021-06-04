@@ -1,3 +1,19 @@
+# Fred homework
+
+https://support.chs.usgs.gov/display/CHSKB/Pangeo+Framework
+
+
+https://tonybutzer.github.io/fred/00-charter.html
+
+https://support.chs.usgs.gov/display/CHSKB/Pangeo+Framework
+
+https://www.usgs.gov/core-science-systems/sas/arc
+
+
+https://jonschlinkert.github.io/remarkable/demo/
+
+
+
 # Case Study Fred
 
 ## Fred's Science Project HERE:
