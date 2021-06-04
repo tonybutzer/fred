@@ -84,6 +84,8 @@
 
 ## Self directed Training
 
+[https://earth-env-data-science.github.io/intro](https://earth-env-data-science.github.io/intro)
+
 - Ryan Abernathy Vision of Pangeo Cult Indoctrination Training
 - Ryans practical Pangeo Jupyter Book
 - Tony's class on case studies at EROS
