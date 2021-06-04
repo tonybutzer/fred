@@ -16,6 +16,11 @@ https://jonschlinkert.github.io/remarkable/demo/
 https://tonybutzer.github.io/harmony-docs/00define_ET.html#aws-on-boarding-overview
 
 
+The Future of Data-driven Discovery in the Cloud - Ryan Abernathey (Columbia University)
+
+    https://www.youtube.com/watch?v=7kDYfUe0Zhw
+
+
 
 # Case Study Fred
 
