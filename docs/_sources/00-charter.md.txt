@@ -62,6 +62,10 @@
 - NDVI
 - Derived products data - i.e - ETA
 
+### Sample Data 
+- any data in netcdf format?
+- any tif data?
+
 
 ## Data Wrangling Strategy
 
