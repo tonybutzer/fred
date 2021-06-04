@@ -4,7 +4,6 @@ html:
            -v `pwd`:/home \
            ${Image} sphinx-build source build/html
 	cp -r build/html/* ../html
-
 webServer:
 	docker run --name harmony-web -p 80:80 -v `pwd`/build/html:/usr/share/nginx/html:ro -d nginx
 
