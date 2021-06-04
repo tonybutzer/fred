@@ -1,0 +1,391 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Neal’s Case Study &mdash; PANGEO/Jupyter Onboarding 101 - Case Studies 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PANGEO/Jupyter Onboarding 101 - Case Studies
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../00-charter.html">Case Study Fred</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#goals">Goals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#approach">Approach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#project-team">Project Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#initial-objectives">Initial Objectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#technology-assessment">Technology Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#data-assessment">Data Assessment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../00-charter.html#data-inputs">Data Inputs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#data-wrangling-strategy">Data Wrangling Strategy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#self-directed-training">Self directed Training</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#the-big-pangeo-access">The BIG PANGEO access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#progress-so-far">Progress So far</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-charter.html#next-steps">Next Steps</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PANGEO/Jupyter Onboarding 101 - Case Studies</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Neal’s Case Study</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Junk/02neal_case_study.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="neal-s-case-study">
+<h1>Neal’s Case Study<a class="headerlink" href="#neal-s-case-study" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="a-month-in-the-life-a-new-cloud-scientist">
+<h2>A month in the life a new cloud scientist<a class="headerlink" href="#a-month-in-the-life-a-new-cloud-scientist" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="project-overview">
+<h2>Project Overview<a class="headerlink" href="#project-overview" title="Permalink to this headline">¶</a></h2>
+<p>Neal is the lead scientist for a group of folks … yada yada yada</p>
+<ul class="simple">
+<li><p>Neal has been using GEE and has been “Motivated” to use CHS. :-)</p></li>
+</ul>
+<ol class="simple">
+<li><p>Study evaporation in a 10 degree by 10 degree AOI in the Delaware River Basin (drb)</p>
+<ul class="simple">
+<li><p>Neal wants to review the ET project and apply lessons learned albeit on an accelerated path</p></li>
+</ul>
+</li>
+<li><p>Study changes in permafrost in Alaska</p></li>
+</ol>
+</div>
+<div class="section" id="constraints">
+<h2>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>must use CHS AWS</p></li>
+</ul>
+</div>
+<div class="section" id="stakeholders">
+<h2>Stakeholders<a class="headerlink" href="#stakeholders" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Danny Howard</p></li>
+<li><p>Bruce Wylie</p></li>
+</ul>
+</div>
+<div class="section" id="project-success-recipe">
+<h2>Project Success Recipe<a class="headerlink" href="#project-success-recipe" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>take one scientist with science problem/model</p></li>
+<li><p>fold in one cloud Sherpa</p></li>
+<li><p>add one cloud computer and one cloud bucket</p></li>
+<li><p>bring to rapid boil</p></li>
+<li><p>let stand and enjoy with German chocolate and dark red wine.</p></li>
+</ul>
+</div>
+<div class="section" id="neal-s-project-plan-and-wbs">
+<h2>Neal’s Project Plan and WBS<a class="headerlink" href="#neal-s-project-plan-and-wbs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="project-setup-and-conceptualizing">
+<h3>Project Setup and Conceptualizing<a class="headerlink" href="#project-setup-and-conceptualizing" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="project-initiation-neal">
+<h3>Project Initiation - Neal<a class="headerlink" href="#project-initiation-neal" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>Develop Charter</p></li>
+<li><p>Get Staffing Aligned</p></li>
+<li><p>Initial low cost base infrastructure</p>
+<ul class="simple">
+<li><p>compute - basic webserver and admin box - devops</p></li>
+<li><p>storage - just planning at this stage</p></li>
+</ul>
+</li>
+<li><p>Apply for a CHS Custom Environment and Account [AWS Cloud]</p>
+<ul class="simple">
+<li><p>Using Randy Sunne’s process = some approval gates will happen <strong>sigh</strong></p></li>
+<li><p>mapped to my projects budget - however that accounting stuff works</p></li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="project-simple-view">
+<h3>Project Simple View<a class="headerlink" href="#project-simple-view" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="infrastructure-devops-tony">
+<h4>Infrastructure Devops - Tony<a class="headerlink" href="#infrastructure-devops-tony" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>create github <code class="docutils literal notranslate"><span class="pre">new</span></code> repo <code class="docutils literal notranslate"><span class="pre">always</span> <span class="pre">begin</span> <span class="pre">with</span> <span class="pre">a</span> <span class="pre">fresh</span> <span class="pre">github</span> <span class="pre">repo</span></code></p></li>
+<li><p>create web host</p>
+<ul>
+<li><p>create website  <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">DONE!!!</span></code></p></li>
+<li><p>create kanboard <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">WIP!!!</span></code></p></li>
+</ul>
+</li>
+<li><p>create mini-pangeo - to be done in CLASS <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">WEEK</span> <span class="pre">1</span></code></p>
+<ul>
+<li><p>add users from student/neal’s team list</p>
+<ul>
+<li><p>https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/06-Instructor/01-Students.ipynb</p></li>
+</ul>
+</li>
+<li><p>post mini-pangeo instructions with usernames and password harmony</p>
+<ul>
+<li><p>warn users about the ephemeral nature of the cloud</p></li>
+<li><p>github is your friend</p>
+<ul>
+<li><p>use any repository you feel comfortable</p></li>
+<li><p>does repository rhyme with suppository?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="veget-project-drb-10-degree-tile">
+<h3>Veget Project drb 10 degree tile<a class="headerlink" href="#veget-project-drb-10-degree-tile" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="define-aoi">
+<h3>Define AOI<a class="headerlink" href="#define-aoi" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>shapefiles</p></li>
+<li><p>geojson files</p></li>
+<li><p>visualize AOI on a map</p></li>
+</ul>
+</div>
+<div class="section" id="data-inputs">
+<h3>Data Inputs<a class="headerlink" href="#data-inputs" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="data-list">
+<h3>Data List<a class="headerlink" href="#data-list" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Public - pre-wrangled ARD Data Sets</p></li>
+<li><p>NetAPP Local Assets to be pushed</p>
+<ul>
+<li><p>precipitaion</p></li>
+<li><p>MODIS NDVI</p></li>
+<li><p>temperature</p></li>
+<li><p>more to come …</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="data-wangling-strategy">
+<h3>Data Wangling Strategy<a class="headerlink" href="#data-wangling-strategy" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="processing-modeling">
+<h3>Processing/Modeling<a class="headerlink" href="#processing-modeling" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="data-outputs">
+<h3>Data Outputs<a class="headerlink" href="#data-outputs" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="permafrost-project">
+<h2>Permafrost Project<a class="headerlink" href="#permafrost-project" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Define AOI<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>shapefiles</p></li>
+<li><p>geojson files</p></li>
+<li><p>visualize AOI on a map</p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Data Inputs<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id3">
+<h3>Data List<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Public - pre-wrangled ARD Data Sets</p></li>
+<li><p>NetAPP Local Assets to be pushed</p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>Data Wangling Strategy<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id5">
+<h3>Processing/Modeling<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id6">
+<h3>Data Outputs<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="project-strategy">
+<h2>Project Strategy<a class="headerlink" href="#project-strategy" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>cloud immersive strategy - imposed by Tony Butzer</p>
+<ul>
+<li><p>unique - because its a cattle versus pets approach</p></li>
+<li><p>ephemeral - sounds scary - you mean things evaporate</p></li>
+<li><p>github suddenly becomes even more important</p></li>
+<li><p>does the name Pavlov ring a bell?</p></li>
+</ul>
+</li>
+<li><p>use self documenting code for everything - “yeah right”</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Tony Butzer
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

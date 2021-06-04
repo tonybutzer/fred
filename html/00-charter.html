@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Case Study Fred &mdash; PANGEO/Jupyter Onboarding 101 - Case Studies 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to AWS – PANGEO Onboarding Training" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PANGEO/Jupyter Onboarding 101 - Case Studies
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Case Study Fred</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#goals">Goals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#approach">Approach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-team">Project Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#initial-objectives">Initial Objectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technology-assessment">Technology Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-assessment">Data Assessment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-inputs">Data Inputs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-wrangling-strategy">Data Wrangling Strategy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#self-directed-training">Self directed Training</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-big-pangeo-access">The BIG PANGEO access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#progress-so-far">Progress So far</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#next-steps">Next Steps</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PANGEO/Jupyter Onboarding 101 - Case Studies</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Case Study Fred</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/00-charter.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="case-study-fred">
+<h1>Case Study Fred<a class="headerlink" href="#case-study-fred" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Allow Fred Irani to make an informed decision on Pangeo versus ARC</p></li>
+</ul>
+</div>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Make the transition to the cloud and pangeo easier</p></li>
+<li><p>Learn from the success of the HPC program</p></li>
+<li><p>continue to test open source solutions</p></li>
+<li><p>transition science outreach functions from engineering to User Services</p></li>
+<li><p>Tune our training strategies to deal with the rapid change phenomena</p></li>
+<li><p>Tune our training approaches to cater to the NEW Pangeo client</p></li>
+</ul>
+</div>
+<div class="section" id="approach">
+<h2>Approach<a class="headerlink" href="#approach" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Jump in and immerse the scientist</p></li>
+<li><p>be there to address any questions and knock down barriers</p></li>
+<li><p>always be moving fast</p></li>
+<li><p>partner with just the right and right number of people - make connections</p>
+<ul>
+<li><p>example use the Evapo CHS Custom Account to augment Fred’s work</p></li>
+</ul>
+</li>
+<li><p>harvest github, crowd sourcing and other examples</p></li>
+</ul>
+</div>
+<div class="section" id="project-team">
+<h2>Project Team<a class="headerlink" href="#project-team" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fred Irani</p></li>
+<li><p>Stephanie Kagone</p></li>
+<li><p>Rich Signell</p></li>
+<li><p>Thomas Tiegen</p></li>
+<li><p>Tony Butzer</p></li>
+<li><p>other SME on-demand</p></li>
+</ul>
+</div>
+<div class="section" id="initial-objectives">
+<h2>Initial Objectives<a class="headerlink" href="#initial-objectives" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Evaluate Fred’s science case as a pilot</p></li>
+<li><p>If reasonable – then try to fast-track Fred into the cloud</p></li>
+<li><p>Improve Pangeo Awareness in USGS-EROS User Services Outreach</p></li>
+<li><p>Get feedback on what an effective training and transition plan is for general science migration to the cloud from sub-optimal windows systems</p></li>
+</ol>
+</div>
+<div class="section" id="technology-assessment">
+<h2>Technology Assessment<a class="headerlink" href="#technology-assessment" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Linux</p></li>
+<li><p>Jupyter</p></li>
+<li><p>Python</p></li>
+<li><p>Pangeo Gems</p></li>
+</ul>
+</div>
+<div class="section" id="data-assessment">
+<h2>Data Assessment<a class="headerlink" href="#data-assessment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="data-inputs">
+<h3>Data Inputs<a class="headerlink" href="#data-inputs" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Landsat?</p></li>
+<li><p>Sentinel?</p></li>
+<li><p>HLS?</p></li>
+<li><p>Climate Data</p></li>
+<li><p>Soils Data</p></li>
+<li><p>Land characterization data?</p></li>
+<li><p>NDVI</p></li>
+<li><p>Derived products data - i.e - ETA</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="data-wrangling-strategy">
+<h2>Data Wrangling Strategy<a class="headerlink" href="#data-wrangling-strategy" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>caldera?</p></li>
+</ul>
+</div>
+<div class="section" id="self-directed-training">
+<h2>Self directed Training<a class="headerlink" href="#self-directed-training" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Ryan Abernathy Vision of Pangeo Cult Indoctrination Training</p></li>
+<li><p>Ryans practical Pangeo Jupyter Book</p></li>
+<li><p>Tony’s class on case studies at EROS</p></li>
+</ul>
+</div>
+<div class="section" id="the-big-pangeo-access">
+<h2>The BIG PANGEO access<a class="headerlink" href="#the-big-pangeo-access" title="Permalink to this headline">¶</a></h2>
+<p>CHS Sevices link hereo</p>
+</div>
+<div class="section" id="progress-so-far">
+<h2>Progress So far<a class="headerlink" href="#progress-so-far" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Rich is building a vesatile cloud environment</p></li>
+<li><p>25 CHS employees</p></li>
+<li><p>Thomas Tiegen - self study on Pangeo</p></li>
+<li><p>The open source community and data cube communities have a nice model in Xarray</p></li>
+<li><p>Scientists are dictching their Arc tools for open source to run anywhere and everywhere - much better turn-arounds</p></li>
+<li><p>Scientists don’t want to wait for provsionaing of resources - when the cloud is available</p></li>
+</ul>
+</div>
+<div class="section" id="next-steps">
+<h2>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>get fred access to the Pangeo</p></li>
+<li><p>get Fred access to the chs custom env</p></li>
+<li><p>Identify the training areas for Fred and his team</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to AWS – PANGEO Onboarding Training" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Tony Butzer
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
