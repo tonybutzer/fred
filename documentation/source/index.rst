@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to AWS -- PANGEO Onboarding Training
-==================================================
+Welcome to Fred's AWS -- PANGEO Onboarding Training
+====================================================
 
 .. toctree::
    :maxdepth: 2
